@@ -10,7 +10,8 @@ import Patte from './Components/Patte';
 import Footer from './Components/Footer';
 import LocomotiveScroll from 'locomotive-scroll';
 import { Contact } from './Components/Navcomponents/Contact';
-
+import AboutUS from './Components/Navcomponents/AboutUS';
+import Insights from './Components/Navcomponents/Insights';
 
 function App() {
   const locomotiveScroll = new LocomotiveScroll();
@@ -31,6 +32,8 @@ function App() {
             </>
           } />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/about-us" element={<AboutUS />}></Route>
+          <Route path="/insights" element={ <Insights/>}></Route>
         </Routes>
       </div>
     </Router>
