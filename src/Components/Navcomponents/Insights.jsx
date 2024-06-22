@@ -2,11 +2,11 @@ import React from 'react';
 
 const Insights = () => {
     return (
-        <div className="bg-gray-100 py-16 px-4 bg-zinc-800">
+        <div className="bg-zinc-900 py-16 px-4">
             <div className="max-w-4xl mx-auto">
                 <h1 className="text-6xl font-bold text-center mb-6 text-white">Insights</h1>
                 <h2 className="text-3xl font-bold text-center mb-6 text-white">Transforming Project Management with Data-Driven Decisions</h2>
-                <ul className="list-none pl-0 mb-8 text-white">
+                <ul className="list-none pl-0 mb-8">
                     <li className="bg-blue-100 rounded-md p-4 mb-4 transform hover:-translate-y-1 hover:scale-105 transition-transform duration-200 ease-in-out text-black">
                         In the ever-evolving landscape of project management, the ability to make informed, data-backed decisions is more crucial than ever.
                     </li>
